@@ -10,7 +10,7 @@ function Loading() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 3600);
   }, []);
   return (
     <AnimatePresence mode="wait">
@@ -45,13 +45,13 @@ function Loading() {
             <Typography
               initial={{ opacity: 1 }}
               animate={{ opacity: 0 }}
-              transition={{ duration: 2.4 }}
+              transition={{ duration: 3.3 }}
               component={motion.p}
               variant="h5"
             >
-              You have a big head 🙄
+              It's 2024! and you still have a big head 🙄
             </Typography>
-          
+
             <SuperBalls size={45} speed={1.4} color="white" />
           </Stack>
         </Box>

@@ -26,7 +26,7 @@ function Content() {
       layout
     >
       <Stack>
-        <Typography variant="h6" component={motion.p} layout="center">
+        <Typography variant="h6" component={motion.p} layout='position' >
           Hey there! 🚀
         </Typography>
 
